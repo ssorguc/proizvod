@@ -1,0 +1,96 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Quicksand', sans-serif;*/
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#prviDio {
+    display: flex;
+    justify-content: flex-start;
+    /* Center horizontally (right side) */
+    align-items: center;
+    /* Center vertically (middle) */
+    height: 100vh;
+    /* Make 'prviDio' take full viewport height */
+    background: url("assets/pozadina.jpeg");
+    background-size: cover;
+    padding-left: 150px;
+}
+
+.rezervacija {
+    width: 30%;
+    /* Set a specific width for the div */
+    height: 80%;
+    /* Set a specific height for the div */
+    padding: 30px;
+    flex: 1;
+}
+
+h1 {
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h3 {
+    color: #F433AB;
+}
+
+p {
+    color: #2A2D27;
+}
+
+input {
+    color: #2A2D27;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    display: block;
+}
+
+
+button {
+    margin-top: 15px;
+    background-color: white;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #F433AB;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#poruka {
+    color: #F433AB;
+}
+
+.istakni {
+    background-color: #F433AB;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.proizvodSlika {
+    height: 400px;
+}
+
+.proizvod {
+    flex: 1;
+}
+
+#loadImg {
+    height: 40px;
+}
